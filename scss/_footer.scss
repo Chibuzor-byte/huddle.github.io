@@ -1,0 +1,115 @@
+.footer {
+    position: relative;
+    background-color: $very-dark-cyan;
+    padding: 20rem 0;
+    color: #fff;
+
+    &__card {
+        background-color: #fff;
+        text-align: center;
+        border-radius: 1.5rem;
+        padding: 3rem 2rem;
+        font-size: 1.2rem;
+        width: 90%;
+        max-width: 90%;
+        margin: 0 auto;
+        position: absolute;
+        top: -50px;
+        left: 5vw;
+        color: $very-dark-cyan;
+    }
+
+    &__main-content {
+        margin-bottom: 2rem;
+    }
+
+    &__details {
+        margin-bottom: 3.5rem;
+    }
+
+    &__info {
+        
+    }
+
+    &__logo-image {
+        background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    &____logo-container {
+        margin-left: 2rem;
+    }
+
+    &__symbol {
+        margin-right: 1rem;
+    }
+
+
+    &__location {
+        display: flex;
+        align-items: center;
+        margin-left: 2rem;
+    }
+
+    &__location-content {
+        max-width: 370px;
+        width: 90%;
+    }
+
+    
+
+    &__location-container {
+        align-self: flex-start;
+    }
+
+    // &__ul {
+    //     margin-top: rem;
+    // }
+
+    &__item {
+        margin-bottom: 1rem;
+    }
+
+    &__nav-item {
+        margin-left: 2rem;
+    }
+
+    &__social-media-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    &__social-media {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.social-media {
+    fill: #fff;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 10rem #fff;
+    margin-bottom: 5rem;
+    margin-right: 1rem;
+}
+
+.copyright-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 370px;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.u-margin-bottom {
+    margin-bottom: 2rem;
+}
+
+.u-margin-bottom-ul {
+    margin-bottom: 6rem;
+}

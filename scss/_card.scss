@@ -1,0 +1,38 @@
+.card-container {
+    background-color: #eee;
+    padding: 6rem 0;
+}
+
+.card {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+    border-radius: 2rem;
+    background-color: #fff;
+    padding: 2rem;
+    box-shadow: 1rem 2rem 5rem $very-pale-cyan;
+    margin-bottom: 3rem;
+
+    &__content {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    &__image-container {
+        margin-bottom: 4rem;
+        padding: 3rem;
+    }
+
+    &-main-content {
+        margin-bottom: 1.5rem;
+        font-size: 2.5rem;
+    }
+
+    &-sub-content {
+        margin-bottom: 1.5rem;
+        color: $grayish-blue;
+        font-size: 1.5rem;
+        line-height: 2rem;
+        font-weight: 400;
+    }
+}
